@@ -1,4 +1,4 @@
-def perfect(number):
+def perfect_number(number):
     if number <= 0:
         return False
     total = 0
@@ -9,4 +9,4 @@ def perfect(number):
 
 
 if __name__ == '__main__':
-    print(perfect(5))
+    print(perfect_number(5))
